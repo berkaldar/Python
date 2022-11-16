@@ -25,20 +25,20 @@ print(number % 3) #! bölümünden kalan sonuç
 isVerified = True
 
 #! mantıksal, karşılaştırma operatörler => her mantıksal operatör boolean değer döner
-print (1 == 2)
-print (2 != 2)
+print (1 == 2) #false
+print (2 != 2) #false
 
-print(2 > 2)
-print(2 < 2)
+print(2 > 2) #false
+print(2 < 2) #false
 #! mantıksal operatörler
 
-print (2 >= 2)
-print (2 <= 2)
+print (2 >= 2) #true
+print (2 <= 2) #true
 
 
 
-print(10%2==0)
-print(50/2 == 25.0)
+print(10%2==0) #false
+print(50/2 == 25.0) #true
 
 #! mantıksal operatörler
 
