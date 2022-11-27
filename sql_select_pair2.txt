@@ -1,0 +1,31 @@
+# SQL - Select Komutu
+
+SQL'de Select komutu personel tablosundaki tüm veriyi sorgulamak için kullanılır.
+
+Örnek: SELECT * FROM Personel
+
+"*" yerine o tablodaki tüm kolonları yazarak da hepsini getirmiş oluruz.
+
+Kolon isimlerini SELECT ifadesinden sonra aralarında virgül ile belirtmemiz gerekmektedir.
+
+Örnek: SELECT kolon1,kolon2, kolon3, FROM table
+
+FROM sorgusu ise nereden olacağı "*" tüm veriyi SELECT ise elde edilen veri üzerinde ne yapılacağını belirtir.
+
+SELECT o tablodan veri seçmek için kullanılır. * yerine tabloda belirtilen kolon isimlerini yazarsak o kolonda olan bilgiyi getirir.
+
+Sadece ilgili kolonla alakalı query'nin gelmesini istersek WHERE koşul cümleciğini kullanmamız gerekmektedir.
+
+Örnek select * from table where title=10
+
+# SQL - DISTINCT Komutu
+
+İlgili tabloda kaç farklı title veya kolon bulunduğunu öğrenmek istersek DISTINCT kullanmamız gerekmektedir.
+
+# SQL - TOP Komutu
+
+Top komutu ile sınırlanan değer ile istediğimiz sayıda veriye ulaşabiliriz.
+
+Örnek: SELECT TOP 10 kolon1,kolon2 FROM table
+
+Yukarıdaki komutta table tablosundan kolon1 ve kolon2 bilgilerini çağırabileceğimiz ilk 10 kişi sorgusunu çağırmış oluruz
